@@ -27,7 +27,7 @@
         };
 
         G_DMode {
-            bindings = <&mo 4>;
+            bindings = <&to 0>;
             key-positions = <8 7 6>;
         };
 
