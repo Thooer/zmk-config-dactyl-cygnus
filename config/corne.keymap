@@ -17,7 +17,14 @@
 #define MSE     5
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        s1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <3 13>;
+        };
+    };
 };
 
 / {
